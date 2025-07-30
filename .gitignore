@@ -1,4 +1,5 @@
-  Food-env/
+  .gitignore
+        Food-env/
         Foodie_Fast/Foodie_Fast/
         Foodie_Fast/Online_Food/__init__.py
         Foodie_Fast/Online_Food/__pycache__/
