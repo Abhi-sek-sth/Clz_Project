@@ -1,0 +1,14 @@
+  .gitignore
+        Food-env/
+        Foodie_Fast/Foodie_Fast/
+        Foodie_Fast/Online_Food/__init__.py
+        Foodie_Fast/Online_Food/__pycache__/
+        Foodie_Fast/Online_Food/admin.py
+        Foodie_Fast/Online_Food/apps.py
+        Foodie_Fast/Online_Food/migrations/
+        Foodie_Fast/Online_Food/models.py
+        Foodie_Fast/Online_Food/tests.py
+        Foodie_Fast/Online_Food/views.py
+        Foodie_Fast/db.sqlite3
+        Foodie_Fast/manage.py
+        git_clone/
