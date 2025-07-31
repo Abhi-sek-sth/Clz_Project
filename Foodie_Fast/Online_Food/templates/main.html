@@ -21,7 +21,7 @@
                 </div>
                 <nav class="nav">
                     <ul class="nav-list">
-                        <li class="nav-item"><a href="main.html" class="nav-link active">Home</a></li>
+                        <li class="nav-item"><a href="{% url 'main' %}" class="nav-link active">Home</a></li>
                         <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
                         <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                         <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
@@ -70,7 +70,7 @@
                 <div class="dishes-grid">
                     <div class="dish-card" data-aos="fade-up">
                         <div class="dish-image">
-                            <img src="images/chicken-momo.jpg" alt="Chicken Momo">
+                            <img src="{% static 'images/chicken-momo.jpg' %}" alt="Chicken Momo">
                         </div>
                         <div class="dish-content">
                             <h3>Momo</h3>
@@ -79,7 +79,7 @@
                     </div>
                     <div class="dish-card" data-aos="fade-up" data-aos-delay="200">
                         <div class="dish-image">
-                            <img src="images/bhat.jpeg" alt="Dal Bhat">
+                            <img src="{% static 'images/bhat.jpeg' %}" alt="Dal Bhat">
                         </div>
                         <div class="dish-content">
                             <h3>Dal Bhat</h3>
@@ -88,7 +88,7 @@
                     </div>
                     <div class="dish-card" data-aos="fade-up" data-aos-delay="400">
                         <div class="dish-image">
-                            <img src="images/thukpa.jpg" alt="Thukpa">
+                            <img src="{% static 'images/thukpa.jpg' %}" alt="Thukpa">
                         </div>
                         <div class="dish-content">
                             <h3>Thukpa</h3>
