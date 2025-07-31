@@ -1,10 +1,11 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taste of Nepal - Authentic Nepali Cuisine</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="{% static 'css/globals.css' %}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -20,12 +21,12 @@
                 </div>
                 <nav class="nav">
                     <ul class="nav-list">
-                        <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+                        <li class="nav-item"><a href="" class="nav-link active">Home</a></li>
                         <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
                         <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                         <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
                         <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-                        <li class="nav-item"><a href="addtocart.html" class="nav-link">Add to Cart</a></li>
+                        <li class="nav-item"><a href="/addtocart" class="nav-link">Add to Cart</a></li>
                     </ul>
                 </nav>
                 <div class="header-buttons">
@@ -176,6 +177,6 @@
     </audio>
 
     <!-- Scripts -->
-    <script src="js/script.js"></script>
+  <script src="{% static 'js/script.js' %}"></script>
 </body>
 </html>
